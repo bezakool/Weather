@@ -60,13 +60,13 @@ function formatDate(date) {
   const minutes = String(date.getMinutes()).padStart(2, "0");
   const hours = date.getHours();
   const days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
+    "Sun",
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
   ];
   const day = days[date.getDay()];
 
